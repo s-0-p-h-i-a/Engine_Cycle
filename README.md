@@ -1,4 +1,4 @@
-# Inline-4 Engine Cycle Simulation v0 (No Pointers)
+# Inline-4 Engine Cycle Simulation v0 PoC (No Pointers)
 
 This repository contains a simple **C-based command-line simulation of a 4-stroke inline-4 engine**. It’s a proof-of-concept project designed to **practice C programming, finite state machines, and struct/enum usage**.
 
