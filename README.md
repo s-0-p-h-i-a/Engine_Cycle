@@ -2,6 +2,8 @@
 
 This repository contains a simple **C-based command-line simulation of a 4-stroke inline-4 engine**. It’s a proof-of-concept project designed to **practice C programming, finite state machines, and struct/enum usage**.
 
+Implements independent cylinder states, firing order logic, and a Moore-style finite state machine to track piston position, valves (intake and exhaust), fuel injection, and spark timing.
+
 ---
 ## Features
 
