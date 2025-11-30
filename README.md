@@ -28,6 +28,11 @@ Current projects include:
     - Demonstrates state-machine thinking, enum-based indexing, and multi-file C organization.
 
     - Conceptual and not yet functional, intended as a visual, hardware-based learning exercise.
+    
+3. **Arduino One Cylinder Simulation (WIP / PoC)**
+    
+    - Design plan to simulate one cylinder moving through combustion cycle using LEDs and a breadboard.
+    - Will be expanded to an LED Matrix-based simulation of an inline 4 engine.
 
 ---
 ## Structure
@@ -35,12 +40,6 @@ Current projects include:
 Each project is contained in its own folder (`v0/PoC`) to clearly separate work-in-progress experiments.
 
 Each project uses **modular C structure**, separating state representation, output handling, and core logic to mimic embedded systems best practices.
-
----
-## Planned Projects:
-
-- Single cylinder simulation using LEDs: now in design plan phase.
-- 4 cylinder inline-4 simulation using LED matrix.
 
 ---
 ## Learning Goals / Roadmap
