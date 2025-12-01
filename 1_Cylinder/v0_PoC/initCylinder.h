@@ -1,0 +1,2 @@
+
+bool initCylinder(cylinderElements c);

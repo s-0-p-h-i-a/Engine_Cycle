@@ -2,6 +2,10 @@
 
 A collection of **learning-focused engine simulation projects** in C and Arduino. These early-stage experiments explore **state-machine logic, modular C design, and hardware abstraction** through CLI and LED-based prototypes. Projects are conceptual and work-in-progress, demonstrating understanding of engine sequencing and embedded systems thinking. They will be iteratively refined and expanded over time.
 
+**Current WIPs:** cylinder and crankshaft simulations.
+
+**Long-term goal:** add DOHC camshafts, fuel injection and spark plug projects, merge into simple Moore machine-like simulation of inline-4 engine control.
+
 ---
 ## Overview
 
@@ -29,10 +33,25 @@ Current projects include:
 
     - Conceptual and not yet functional, intended as a visual, hardware-based learning exercise.
     
-3. **Arduino One Cylinder Simulation (WIP / PoC)**
+3. **Arduino 1-Cylinder Simulation (WIP / PoC)**
     
     - Design plan to simulate one cylinder moving through combustion cycle using LEDs and a breadboard.
-    - Will be expanded to an LED Matrix-based simulation of an inline 4 engine.
+
+4. **Arduino 4-Cylinder Simulation (Planned)**
+    
+    - Expansion on the 1-cylinder project, simulating an inline-4 engine using an LED matrix.
+
+5. **Camshafts Simulation (Planned)**
+    
+    - Simulate valve distribution control in an inline-4 DOHC engine.
+
+6. **Fuel & Spark Simulation (Planned)**
+    
+    - Simulate fuel injector and spark plug control.
+
+7. **Simple Inline-4 Engine Simulation (Planned)**
+    
+    - Progressively combine previously developed cylinder, crank, cam, injection and ignition logic into modular, simplified Moore machine-like inline-4 engine control simulation.
 
 ---
 ## Structure
