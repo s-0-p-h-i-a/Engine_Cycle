@@ -95,7 +95,7 @@ int main() {
 		// Continue check
 		if (track == INTERVAL) {
 			continueRunning = checkContinue();
-			track = 0;
+			if (continueRunning) {track = 0;}
 		}
 		
 		// Update crankshaft state(=lobe positions) for next loop
@@ -103,7 +103,7 @@ int main() {
 			crankshaft[lobe] = spinCrank(lobe);
 		}
 		
-		usleep(500000); // 200ms pause
+		usleep(500000); // 500ms pause
 	}
 	
 	return 0;
