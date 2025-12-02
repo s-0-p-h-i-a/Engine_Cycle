@@ -13,7 +13,7 @@ The logic design, modular structure and visual terminal output of this project l
 
 ![Terminal window running ASCII crankshaft visualisation](demogif.gif)
 
-**Milestone:** First fully functional engine simulation demonstrating crankshaft state updates, visual output, and modular library use in a complete, running CLI prototype.**Milestone:** First fully functional engine simulation demonstrating crankshaft state updates, visual output, and modular library use in a complete, running CLI prototype.
+**Milestone:** First fully functional engine simulation demonstrating crankshaft state updates, visual output, and modular library use in a complete, running CLI prototype.
 
 ---
 ## **Project Goals**
