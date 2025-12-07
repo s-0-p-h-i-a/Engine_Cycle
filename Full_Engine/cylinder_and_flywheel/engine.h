@@ -36,16 +36,13 @@ enum { IDLE_INTERVAL = 10000 };
 
 extern bool cylinder[CYLINDER_ELEMENTS];
 
-extern int currentStroke;
 extern bool isIdle;
 extern bool engineON;
 extern int speed;
 
 void updateStroke(void);
 
-void runEngine(int pause);
-
-bool initCylinder(int c);
+void runEngine(void);
 
 void startEngine(void);
 

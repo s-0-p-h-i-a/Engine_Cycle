@@ -18,7 +18,7 @@ void readJoystick(void) {
 		x = newX;
 	}
 	
-	if (now-lastUpdate_Z > BUTTON_DELAY) {
+	if (now-lastUpdate_Z > DEBOUNCE_DELAY) {
 		
 		lastUpdate_Z = now;
 		z = newZ;

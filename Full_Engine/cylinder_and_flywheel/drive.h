@@ -3,11 +3,9 @@
 
 enum {
 	
-	hyst		= 30,
-	IDLE_INPUT	= 500,
-	LEVEL_ONE_INPUT 	= 670,
-	LEVEL_TWO_INPUT 	= 840,
-	LEVEL_THREE_INPUT	= 1000
+	hyst		= 50,
+	IDLE_INPUT	= 500
+	//LEVEL_THREE_INPUT	= 550
 };
 
 enum {
@@ -25,16 +23,14 @@ enum {
 };
 
 enum { 
-	WAIT_PAUSE = 1000,
-	IDLE_WAIT  = 3000
+	IDLE_WAIT  = 100,
+	WAIT_PAUSE = 1000
+	//ISOLATE_X_Y = 150
 	};
 
-extern int speedPause;
-
-void wait(int p);
-
-void checkEngineState(void);
-int getSpeed(void);
+int getServoSpeed(void);
 int getCylinderPause(void);
+void checkEngineState(void);
+void driveEngine(int pause);
 
 #endif

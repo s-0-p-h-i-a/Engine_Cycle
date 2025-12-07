@@ -63,6 +63,10 @@ void loop() {
 	
 	readJoystick();
 	
+	checkEngineState();
+	
+	driveCar();
+	
 	displayEngine();
 	
 	getTimeWindow();
@@ -77,11 +81,9 @@ void loop() {
 
 void driveCar(void) {
 	
-	checkEngineState();
-	
 	if (engineON) {
-
-		updateStroke();
+		
+		driveEngine();
 		
 		spinFlywheel(speed);
 		
